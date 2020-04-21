@@ -1,0 +1,31 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page10664134.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Scheme} =http
+RewriteRule ^(.*)$ https://gonzo\.beer/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Scheme} =https
+RewriteCond %{HTTP_HOST} ^www\.gonzo.beer [NC]
+RewriteRule ^(.*)$ https://gonzo\.beer/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^backup$ page10676914.html [NC]
+RewriteRule ^backup/$ page10676914.html [NC]
+
+RewriteRule ^public-agreement$ page10769963.html [NC]
+RewriteRule ^public-agreement/$ page10769963.html [NC]
+
+RewriteRule ^return-terms$ page10770379.html [NC]
+RewriteRule ^return-terms/$ page10770379.html [NC]
+
+RewriteRule ^privacy-policy$ page10770473.html [NC]
+RewriteRule ^privacy-policy/$ page10770473.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6334-6462-4539-b037-636562383665/favicon_1.ico [R=302,L]
+

@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  .t467__descr span {
+    font-size: 14px;
+  }
+}
+
+.t-popup__container .js-product div,
+.t-popup__container .js-product span
+{
+    color: #000000 !important;
+}
