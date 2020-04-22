@@ -1,0 +1,7 @@
+form:
+    path: /order
+    controller: App\Controller\OrderController::indexAction
+
+webhook:
+  path: /tilda-update
+  controller: App\Controller\TildaUpdateController::indexAction
