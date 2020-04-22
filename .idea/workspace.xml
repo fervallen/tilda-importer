@@ -2,103 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53362d49-240e-4a63-ac78-db871a749c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/composerJson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-animation-1.0.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-blocks-2.12.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-catalog-1.1.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-grid-3.0.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-menusub-1.0.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-popup-1.1.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-slds-1.4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tilda-zoom-2.0.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/page10664134body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/page10769963body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/page10770379body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/page10770473body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lib__linea__930cac0f-758b-b7ee-1eb0-b18fc6e10893__ecommerce_bag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3035-3663-4561-a164-323937623731__-__resizeb__20x__16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3035-3663-4561-a164-323937623731__16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3039-3536-4238-a662-663161663736__-__resizeb__20x__pork_chips_640x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3039-3536-4238-a662-663161663736__pork_chips_640x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3239-6637-4664-b037-666636396536__-__resizeb__20x__2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3239-6637-4664-b037-666636396536__2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3333-3133-4664-b939-656533643433__-__resizeb__20x__7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3333-3133-4664-b939-656533643433__7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3365-3134-4362-a166-396434663532__-__resizeb__20x__12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3365-3134-4362-a166-396434663532__12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3462-3933-4032-b064-636335316364__-__resizeb__20x__1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3462-3933-4032-b064-636335316364__1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3565-3335-4661-a137-303866396634__-__resizeb__20x__14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3565-3335-4661-a137-303866396634__14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3639-6430-4439-b763-373065623365__-__resizeb__20x__6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3639-6430-4439-b763-373065623365__6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3664-6534-4164-a561-373635616537__-__resizeb__20x__15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3664-6534-4164-a561-373635616537__15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3733-3665-4461-b531-363635623463__untitled-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3738-3334-4264-b435-653032393466__-__resizeb__20x__10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3738-3334-4264-b435-653032393466__10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3739-6465-4165-a235-303166663038__-__resize__504x__Untitled-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3739-6465-4165-a235-303166663038__untitled-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3938-6666-4635-b435-303964393433__-__resizeb__20x__13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild3938-6666-4635-b435-303964393433__13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6134-3663-4535-b963-643732633237__-__resizeb__20x__9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6134-3663-4535-b963-643732633237__9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6136-3764-4965-b666-376361396162__-__resizeb__20x__beef_chips_640x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6136-3764-4965-b666-376361396162__beef_chips_640x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6161-3164-4164-b866-316462623730__-__resizeb__20x__photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6161-3164-4164-b866-316462623730__photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6236-6162-4332-b335-346265633735__-__resizeb__20x__4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6236-6162-4332-b335-346265633735__4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6239-3834-4736-b130-306433343863__-__empty__payments_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6239-3834-4736-b130-306433343863__payments_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6334-6462-4539-b037-636562383665__favicon_1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6531-3835-4133-a434-386438373237__-__resizeb__20x__3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6531-3835-4133-a434-386438373237__3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6632-6366-4138-b339-643032623031__-__resizeb__20x__11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tild6632-6366-4138-b339-643032623031__11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tildacopy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tildacopy_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tildafavicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hammer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lazyload-1.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-animation-1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-blocks-2.7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-cart-1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-catalog-1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-forms-1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-map-1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-menusub-1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-products-1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-scripts-2.8.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-slds-1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tilda-zoom-2.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-agreement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +91,7 @@
       <updated>1587404825262</updated>
       <workItem from="1587404826931" duration="5200000" />
       <workItem from="1587456582435" duration="28000" />
-      <workItem from="1587542674293" duration="21018000" />
+      <workItem from="1587542674293" duration="21672000" />
     </task>
     <servers />
   </component>

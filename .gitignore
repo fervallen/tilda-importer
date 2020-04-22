@@ -3,8 +3,8 @@
 /.env.local
 /.env.local.php
 /.env.*.local
-!/public/entrypoint.php
 /public/
+!/public/entrypoint.php
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
