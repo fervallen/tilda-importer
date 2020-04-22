@@ -7,4 +7,5 @@
 !/public/entrypoint.php
 /var/
 /vendor/
+/.idea
 ###< symfony/framework-bundle ###
