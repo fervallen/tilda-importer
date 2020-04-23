@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53362d49-240e-4a63-ac78-db871a749c3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/Import/PagesCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/Import/PagesCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/PageSaver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/PageSaver.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +93,7 @@
       <updated>1587404825262</updated>
       <workItem from="1587404826931" duration="5200000" />
       <workItem from="1587456582435" duration="28000" />
-      <workItem from="1587542674293" duration="21672000" />
+      <workItem from="1587542674293" duration="22922000" />
     </task>
     <servers />
   </component>

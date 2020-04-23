@@ -63,11 +63,11 @@ class PagesCommand extends AbstractCommand
 
     private function importPage(ExportedPage $page): void
     {
+        $this->pageSaver->save($page);
         $this->importStaticFiles([
             $this->project->export_imgpath => $page->images,
             $this->project->export_csspath => $page->css,
             $this->project->export_jspath => $page->js,
         ], false);
-        $this->pageSaver->save($page);
     }
 }
