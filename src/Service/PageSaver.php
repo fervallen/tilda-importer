@@ -30,7 +30,7 @@ class PageSaver
     {
         $html = $page->html;
         $tildaLabelHtml = str_replace('{{PAGE_ID}}', $page->id, self::TILDA_LABEL);
-        $html = str_replace($tildaLabelHtml, '', $html);
+        // $html = str_replace($tildaLabelHtml, '', $html);
 
         return $html;
     }
