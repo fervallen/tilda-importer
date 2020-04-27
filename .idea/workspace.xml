@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53362d49-240e-4a63-ac78-db871a749c3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gonzo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gonzo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/PageSaver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/PageSaver.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -127,6 +130,7 @@
       <workItem from="1587456582435" duration="28000" />
       <workItem from="1587542674293" duration="23806000" />
       <workItem from="1587602269084" duration="6000" />
+      <workItem from="1587747963464" duration="32000" />
     </task>
     <servers />
   </component>
