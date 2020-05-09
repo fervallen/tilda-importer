@@ -8,7 +8,7 @@ use TildaTools\Tilda\Objects\Page\ExportedPage;
 
 class PageSaver
 {
-    private const TILDA_LABEL = '<!-- Tilda copyright. Don\'t remove this line --><div class="t-tildalabel " id="tildacopy" data-tilda-sign="2285060#{{PAGE_ID}}"><a href="https://tilda.cc/?upm=2285060" class="t-tildalabel__link"><div class="t-tildalabel__wrapper"><div class="t-tildalabel__txtleft">Made on </div><div class="t-tildalabel__wrapimg"><img src="/images/tildacopy.png" class="t-tildalabel__img"></div><div class="t-tildalabel__txtright">Tilda</div></div></a></div>';
+    private const TILDA_LABEL = '<!-- Tilda copyright. Don\'t remove this line --><div class="t-tildalabel " id="tildacopy" data-tilda-sign="{{PROJECT_ID}}#{{PAGE_ID}}"><a href="https://tilda.cc/?upm={{PROJECT_ID}}" class="t-tildalabel__link"><div class="t-tildalabel__wrapper"><div class="t-tildalabel__txtleft">Made on </div><div class="t-tildalabel__wrapimg"><img src="/images/tildacopy.png" class="t-tildalabel__img"></div><div class="t-tildalabel__txtright">Tilda</div></div></a></div>';
 
     private string $publicDirectory;
 
@@ -29,7 +29,11 @@ class PageSaver
     public function prepareContent(ExportedPage $page): string
     {
         $html = $page->html;
-        $tildaLabelHtml = str_replace('{{PAGE_ID}}', $page->id, self::TILDA_LABEL);
+        $tildaLabelHtml = str_replace(
+            ['{{PAGE_ID}}', '{{PROJECT_ID}}'],
+            [$page->id, $page->projectid],
+            self::TILDA_LABEL
+        );
         $html = str_replace($tildaLabelHtml, '', $html);
 
         return $html;
