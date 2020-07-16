@@ -65,9 +65,9 @@ class PagesCommand extends AbstractCommand
     {
         $this->pageSaver->save($page);
         $this->importStaticFiles([
-            $this->project->export_imgpath => $page->images,
-            $this->project->export_csspath => $page->css,
-            $this->project->export_jspath => $page->js,
+            $this->project->export_imgpath => $page->images ?? [],
+            $this->project->export_csspath => $page->css ?? [],
+            $this->project->export_jspath => $page->js ?? [],
         ], false);
     }
 }
