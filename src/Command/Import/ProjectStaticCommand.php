@@ -29,9 +29,9 @@ class ProjectStaticCommand extends AbstractCommand
     {
         $this->loadInfo();
         $this->importStaticFiles([
-            $this->project->export_csspath => $this->project->css,
-            $this->project->export_imgpath => $this->project->images,
-            $this->project->export_jspath => $this->project->js,
+            $this->project->export_csspath => $this->project->css ?? [],
+            $this->project->export_imgpath => $this->project->images ?? [],
+            $this->project->export_jspath => $this->project->js ?? [],
         ]);
 
         return 1;
