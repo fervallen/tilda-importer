@@ -2,6 +2,7 @@
 
 namespace App\Service;
 
+use ErrorException;
 use \RuntimeException;
 use Symfony\Component\HttpKernel\KernelInterface;
 use TildaTools\Tilda\Objects\Asset;
@@ -13,12 +14,13 @@ class FileImporter
 
     public function __construct(KernelInterface $kernel)
     {
-        $this->publicDirectory = $kernel->getProjectDir() . '/public';
+        $this->publicDirectory = $kernel->getProjectDir() . '/public/';
     }
 
     public function import(Asset $asset, string $directory): void
     {
         $directoryPath = $this->publicDirectory;
+        var_dump($asset->to);
         if (!preg_match(self::TILDA_INCORRECT_PATH_MASK, $asset->from) &&
             (strpos($asset->to, $directory) !== 0)
         ) {
@@ -28,10 +30,21 @@ class FileImporter
             throw new RuntimeException(sprintf('Directory "%s" was not created', $directoryPath));
         }
 
+        set_error_handler(static function($errno, $errstr, $errfile, $errline) {
+            if (strpos($errstr, '401 Unauthorized') !== false) {
+                return false;
+            }
+
+            throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+        });
         $content = file_get_contents($asset->from);
-        if (!$content) {
-            throw new RuntimeException(sprintf('Asset "%s" is empty', $asset->from));
+        restore_error_handler();
+
+        if ($content) {
+            file_put_contents($directoryPath . $asset->to, $content);
+
+            // It's ok if some file is missing
+            // throw new RuntimeException(sprintf('Asset "%s" is empty', $asset->from));
         }
-        file_put_contents($directoryPath . $asset->to, $content);
     }
 }
