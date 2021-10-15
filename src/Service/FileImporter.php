@@ -20,7 +20,6 @@ class FileImporter
     public function import(Asset $asset, string $directory): void
     {
         $directoryPath = $this->publicDirectory;
-        var_dump($asset->to);
         if (!preg_match(self::TILDA_INCORRECT_PATH_MASK, $asset->from) &&
             (strpos($asset->to, $directory) !== 0)
         ) {
